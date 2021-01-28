@@ -1,0 +1,12 @@
+h1 {
+    text-shadow: 2px 2px #ff0000;
+    text-decoration: line-through;
+    font-family: 'Cairo', sans-serif;
+}
+a {
+    color: white;
+}
+footer {
+    font-style: italic;
+}
+
