@@ -1,11 +1,45 @@
 h1 {
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif; font-weight: 400;
+}
+.folders {
+    display: grid;
+    height: fit-content;
+    width: fit-content;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+}
+.blog-folder {
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+.exercise-folder {
+    grid-column: 2/2;
+    grid-row: 1/1;
+}
+.projects-folder {
+    grid-column: 3/3;
+    grid-row: 1/1;
+}
+.playground-folder {
+    grid-column: 4/4;
+    grid-row: 1/1;
+
+}
+.folders {
+    text-align: center;
+    width: 120px ;
+}
+.folders img {
+    display: block;
+    margin: auto;
 }
 a {
-    color: white;
+    color: black;
 }
 footer {
     font-style: italic;
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
