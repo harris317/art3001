@@ -1,11 +1,23 @@
 h1 {
     font-family: 'Open Sans', sans-serif; font-weight: 400;
 }
+.header-info-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head {
+    margin-left: 20px;
+}
+.info {
+    margin-right: 35px;
+}
 .folders {
     display: grid;
     height: fit-content;
     width: fit-content;
-    grid-template-columns: 120px 120px 120px 120px;
+    row-gap: 35px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
     grid-template-rows: auto auto auto auto;
     justify-content: center;
     align-content: center;
@@ -26,8 +38,27 @@ h1 {
     grid-column: 4/4;
     grid-row: 1/1;
 }
-.folders {
+.fashion-product-folder{
+    grid-column: 5/5;
+    grid-row: 1/1;
+}
+.digital-web-media-folder {
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+.architecture-planning-folder {
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+.misc-folder {
+    grid-column: 3/3;
+    grid-row: 2/2;
+}
+.folders p {
     text-align: center;
+}
+.folders p {
+    margin: 0px;
 }
 .folders img {
     display: block;
@@ -38,9 +69,13 @@ p {
     font-weight: 400;
 }
 a {
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
     color: black;
 }
 footer {
+    margin-left: 20px;
     font-style: italic;
     font-family: 'Open Sans', sans-serif;
 }
