@@ -5,39 +5,31 @@ h2 {
 }
 .blog-grid {
     display: grid;
-    height: 20px;
+    height: fit-content;
     width: fit-content;
     row-gap: 15px;
     grid-template-columns: 470px 470px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 .blog-a-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     grid-column: 1/1;
     grid-row: 1/1;
+    text-align: center;
 }
 .blog-b-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     grid-column: 1/1;
     grid-row: 2/2;
+    text-align: center;
 }
 .blog-c-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     grid-column: 1/1;
     grid-row: 3/3;
+    text-align: center;
 }
 .blog-d-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     grid-column: 1/1;
     grid-row: 4/4;
+    text-align: center;
 }
 .wk3-title {
     grid-column: 2/2;
