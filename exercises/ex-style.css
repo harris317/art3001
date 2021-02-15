@@ -1,0 +1,14 @@
+.exercise-grid {
+    display: grid;
+    margin-left: 20px;
+}
+h2 {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+}
