@@ -11,6 +11,9 @@ h2 {
     grid-template-columns: 470px 470px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
+.right-side {
+    font-style: oblique;
+}
 .blog-a-item {
     grid-column: 1/1;
     grid-row: 1/1;

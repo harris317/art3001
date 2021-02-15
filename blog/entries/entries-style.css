@@ -1,0 +1,33 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+.entry-a-grid {
+    margin-left: 20px;
+    display: grid;
+    height: fit-content;
+    width: fit-content;
+    column-gap: 15px;
+    row-gap: 15px;
+    grid-template-columns: 430px 600px;
+    align-items: center;
+}
+.date {
+    grid-column: 2/2;
+    grid-row: 1/1;
+}
+.blog-title {
+    grid-column: 1/1;
+    grid-row: 1/1;
+}
+.blog-text {
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+.image {
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
