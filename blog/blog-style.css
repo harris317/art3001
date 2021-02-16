@@ -1,14 +1,16 @@
 h2 {
+    margin: 20px;
     font-size: 22px;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
 }
 .blog-grid {
+    margin: 20px;
     display: grid;
     height: fit-content;
     width: fit-content;
     row-gap: 15px;
-    grid-template-columns: 470px 470px;
+    grid-template-columns: 200px 470px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 .right-side {
@@ -17,22 +19,22 @@ h2 {
 .blog-a-item {
     grid-column: 1/1;
     grid-row: 1/1;
-    text-align: center;
+    text-align: left;
 }
 .blog-b-item {
     grid-column: 1/1;
     grid-row: 2/2;
-    text-align: center;
+    text-align: left;
 }
 .blog-c-item {
     grid-column: 1/1;
     grid-row: 3/3;
-    text-align: center;
+    text-align: left;
 }
 .blog-d-item {
     grid-column: 1/1;
     grid-row: 4/4;
-    text-align: center;
+    text-align: left;
 }
 .wk3-title {
     grid-column: 2/2;
@@ -62,8 +64,8 @@ p {
 .vl {
     border-left: 2px solid black;
     height: 400px;
-    position: absolute;
-    left: 25%;
+    position: fixed;
+    left: 11.5%;
     margin-left: -3px;
     top: 12%;
   }
