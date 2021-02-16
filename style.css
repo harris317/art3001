@@ -79,4 +79,43 @@ footer {
     font-style: italic;
     font-family: 'Open Sans', sans-serif;
 }
-
+@media only screen and (max-width: 992px) {
+    body {
+        background: red;
+    }
+    .folders {
+        grid-template-columns: 200px 200px;
+    }
+    .blog-folder {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .exercise-folder {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .projects-folder {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .playground-folder {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .fashion-product-folder{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .digital-web-media-folder {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .architecture-planning-folder {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .misc-folder {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+}
