@@ -10,11 +10,18 @@ h2 {
     height: fit-content;
     width: fit-content;
     row-gap: 15px;
-    grid-template-columns: 200px 470px;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    min-height: 500px;
+}
+.left-side {
+    grid-row: 1/1;
+    border-right: 2px solid black;
+    padding-right: 50px;
 }
 .right-side {
     font-style: oblique;
+    grid-column: 2/3;
+    padding-left: 50px;
 }
 .blog-a-item {
     grid-column: 1/1;
@@ -61,11 +68,3 @@ p {
     font-family: 'Open Sans', sans-serif;
     color: black;
 }
-.vl {
-    border-left: 2px solid black;
-    height: 400px;
-    position: fixed;
-    left: 11.5%;
-    margin-left: -3px;
-    top: 12%;
-  }
