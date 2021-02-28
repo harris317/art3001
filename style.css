@@ -72,13 +72,13 @@ h1 {
     margin: auto;
 }
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: NeueMachina;
     font-weight: 400;
 }
 a {
     font-size: 22px;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: NeueMachina;
     color: black;
 }
 .footer {
