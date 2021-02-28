@@ -15,6 +15,9 @@ a {
     column-gap: 5px;
     grid-template-columns: 500px 500px;
 }
+.fs-pic-grid img {
+    vertical-align: bottom;
+}
 .pic1 {
     grid-column: 1/2;
 }
@@ -31,12 +34,15 @@ a {
 .img-container{
     position: relative;
 }
-a.item-a{
-    display:inline-block;
+
+a.item-a {
+    vertical-align: baseline;
 }
+
 .img-container img {
     display: block;
 }
+
 .img-title {
     position: absolute;
     top: 0;

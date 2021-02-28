@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'Open Sans', sans-serif; font-weight: 400;
+    font-family: NeueMachina;
 }
 .header-info-flex {
     display: flex;
@@ -11,6 +11,13 @@ h1 {
 }
 .info {
     margin-right: 35px;
+}
+#dragfolder {
+    position: absolute;
+    z-index: auto;
+    background-color: rgb(181, 178, 178);
+    border: 0px;
+    text-align: center;
 }
 .folders {
     display: grid;
@@ -81,6 +88,10 @@ a {
     width: 100%;
     font-style: italic;
     font-family: 'Open Sans', sans-serif;
+}
+@font-face {
+    font-family: NeueMachina;
+    src: url(homepage_assets/webfontkit-20210227-162650/neuemachina-regular-webfont.woff2)
 }
 @media only screen and (max-width: 992px) {
     body {
