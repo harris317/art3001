@@ -12,14 +12,7 @@ h1 {
 .info {
     margin-right: 35px;
 }
-#dragfolder {
-    position: absolute;
-    z-index: auto;
-    background-color: rgb(181, 178, 178);
-    border: 0px;
-    text-align: center;
-}
-.folders {
+.navgrid {
     display: grid;
     height: fit-content;
     width: fit-content;
@@ -61,13 +54,13 @@ h1 {
     grid-column: 3/3;
     grid-row: 2/2;
 }
-.folders p {
+.navgrid p {
     text-align: center;
 }
-.folders p {
+.navgrid p {
     margin: 0px;
 }
-.folders img {
+.navgrid img {
     display: block;
     margin: auto;
 }
@@ -105,7 +98,7 @@ a {
     body {
         background: red;
     }
-    .folders {
+    .navgrid {
         grid-template-columns: 200px 200px;
     }
     .blog-folder {

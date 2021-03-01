@@ -9,10 +9,15 @@
     <title>Christian J. Harris</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600;1,700&display=swap');
+        #draggable { width: 210px; height: 150px; padding: 0.0; }
     </style>
-    <script src="hpjquery.js"></script>
-    <script src="hpmain.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+    $( ".folder" ).draggable();
+    } );
+    </script>
 </head>
 
 <body style="background-color: rgb(181, 178, 178); color: black;">
@@ -28,52 +33,50 @@
         <br>
         <br>
         <nav>
-            <div class="folders">
-                <div id="dragfolder">
-                    <div class="blog-folder">
+            <div class="navgrid">
+                    <div class="folder" class="blog-folder">
                         <a href="blog/index.html"> <img src="homepage_assets/pixelfolder.png" alt="" width="100px"
                                 height="84px"></a>
                         <p>Blog</p>
                     </div>
-                </div>
                 <br>
-                <div class="exercise-folder">
-                    <a href="exercises/"> <img src="homepage_assets/pixelfolder.png" alt="" width="100px"
+                <div class="folder" class="exercise-folder">
+                    <a href="exercises/index.html"> <img src="homepage_assets/pixelfolder.png" alt="" width="100px"
                             height="84px"></a>
                     <p>Exercises</p>
                 </div>
                 <br>
-                <div class="projects-folder">
+                <div class="folder" class="projects-folder">
                     <a href="projects/index.html"> <img src="homepage_assets/pixelfolder.png" alt="" width="100px"
                             height="84px"></a>
                     <p>Projects</p>
                 </div>
                 <br>
-                <div class="playground-folder">
+                <div class="folder" class="playground-folder">
                     <a href="playground/index.html"> <img src="homepage_assets/pixelfolder.png" alt="" width="100px"
                             height="84px"></a>
                     <p>Playground</p>
                 </div>
                 <br>
-                <div class="fashion-product-folder">
+                <div class="folder" class="fashion-product-folder">
                     <a href="fashion_product/index.html"> <img src="homepage_assets/pixelfolder.png" alt=""
                             width="100px" height="84px"></a>
                     <p>Fashion_Product</p>
                 </div>
                 <br>
-                <div class="digital-web-media-folder">
+                <div class="folder" class="digital-web-media-folder">
                     <a href="digital_web_media/"> <img src="homepage_assets/pixelfolder.png" alt="" width="100px"
                             height="84px"></a>
                     <p>Digital_Web_Media</p>
                 </div>
                 <br>
-                <div class="architecture-planning-folder">
+                <div class="folder" class="architecture-planning-folder">
                     <a href="architecture_planning/index.html"> <img src="homepage_assets/pixelfolder.png" alt=""
                             width="100px" height="84px"></a>
                     <p>Arch_Planning</p>
                 </div>
                 <br>
-                <div class="misc-folder">
+                <div class="folder" class="misc-folder">
                     <a href="misc/index.html"> <img src="homepage_assets/pixelfolder.png" alt="" width="100px"
                             height="84px"></a>
                     <p>Misc.</p>
