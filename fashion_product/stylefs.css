@@ -13,6 +13,7 @@ a {
     height: fit-content;
     width: fit-content;
     column-gap: 5px;
+    row-gap: 5px;
     grid-template-columns: 500px 500px;
 }
 .fs-pic-grid img {
@@ -30,7 +31,12 @@ a {
 .pic4 {
     grid-column: 2/3;
 }
-
+.pic5 {
+    grid-column: 1/2;
+}
+.pic6 {
+    grid-column: 2/3;
+}
 .img-container{
     position: relative;
 }
