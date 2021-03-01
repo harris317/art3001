@@ -1,8 +1,7 @@
 h2 {
     font-size: 22px;
     margin-left: 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
+    font-family: NeueMachina;
 }
 a {
     text-decoration: none;
@@ -58,4 +57,8 @@ a.item-a {
     color: #fff;
     margin:0;
     padding:0;
+}
+@font-face {
+    font-family: NeueMachina;
+    src: url(../homepage_assets/webfontkit-20210227-162650/neuemachina-regular-webfont.woff2)
 }
