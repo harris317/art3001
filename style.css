@@ -1,5 +1,5 @@
 h1 {
-    font-family: NeueMachina;
+    font-family: NeueMachinaUltraLight;
 }
 .header-info-flex {
     display: flex;
@@ -72,13 +72,13 @@ h1 {
     margin: auto;
 }
 p {
-    font-family: NeueMachina;
+    font-family: NeueMachinaLight;
     font-weight: 400;
 }
 a {
     font-size: 22px;
     text-decoration: none;
-    font-family: NeueMachina;
+    font-family: NeueMachinaLight;
     color: black;
 }
 .footer {
@@ -90,8 +90,16 @@ a {
     font-family: 'Open Sans', sans-serif;
 }
 @font-face {
-    font-family: NeueMachina;
-    src: url(homepage_assets/webfontkit-20210227-162650/neuemachina-regular-webfont.woff2)
+    font-family: NeueMachinaLight;
+    src: url(homepage_assets/NeueMachina/neuemachina-light-webfont.woff2)
+}
+@font-face {
+    font-family: NeueMachinaRegular;
+    src: url(homepage_assets/NeueMachina/neuemachina-regular-webfont.woff2)
+}
+@font-face {
+    font-family: NeueMachinaUltraLight;
+    src: url(homepage_assets/NeueMachina/neuemachina-ultralight-webfont.woff2)
 }
 @media only screen and (max-width: 992px) {
     body {

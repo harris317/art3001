@@ -1,7 +1,7 @@
 h2 {
     font-size: 22px;
     margin-left: 20px;
-    font-family: NeueMachina;
+    font-family: NeueMachinaUltraLight;
 }
 a {
     text-decoration: none;
@@ -59,6 +59,14 @@ a.item-a {
     padding:0;
 }
 @font-face {
-    font-family: NeueMachina;
-    src: url(../homepage_assets/webfontkit-20210227-162650/neuemachina-regular-webfont.woff2)
+    font-family: NeueMachinaLight;
+    src: url(../homepage_assets/NeueMachina/neuemachina-light-webfont.woff2)
+}
+@font-face {
+    font-family: NeueMachinaRegular;
+    src: url(../homepage_assets/NeueMachina/neuemachina-regular-webfont.woff2)
+}
+@font-face {
+    font-family: NeueMachinaUltraLight;
+    src: url(../homepage_assets/NeueMachina/neuemachina-ultralight-webfont.woff2)
 }
