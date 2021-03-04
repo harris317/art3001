@@ -95,9 +95,6 @@ a {
     src: url(homepage_assets/NeueMachina/neuemachina-ultralight-webfont.woff2)
 }
 @media only screen and (max-width: 992px) {
-    body {
-        background: red;
-    }
     .navgrid {
         grid-template-columns: 200px 200px;
     }
