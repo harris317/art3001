@@ -37,3 +37,9 @@ p {
     grid-row: 3/3;
     font-style: oblique;
 }
+.image3 {
+    font-style: oblique;
+}
+a {
+    color: black;
+}
