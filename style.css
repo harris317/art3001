@@ -14,6 +14,7 @@ h1 {
 }
 .navgrid {
     display: grid;
+    margin: auto;
     height: fit-content;
     width: fit-content;
     row-gap: 35px;
@@ -79,8 +80,25 @@ a {
     left: 20px;
     bottom: 20px;
     width: 100%;
-    font-style: italic;
-    font-family: 'Open Sans', sans-serif;
+    font-style: Bold;
+    font-family: 'Arial';
+}
+.middle-footer {
+    position: fixed;
+    text-align: center;
+    bottom: 20px;
+    width: 100%;
+    font-style: Bold;
+    font-family: 'Arial';
+}
+.right-footer {
+    position: fixed;
+    right: 20px;
+    text-align: right;
+    bottom: 20px;
+    width: 100%;
+    font-style: Bold;
+    font-family: 'Arial';
 }
 @font-face {
     font-family: NeueMachinaLight;
