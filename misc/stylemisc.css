@@ -1,0 +1,79 @@
+h2 {
+    font-size: 22px;
+    margin-left: 20px;
+    font-family: NeueMachinaUltraLight;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.fs-pic-grid {
+    display: grid;
+    height: fit-content;
+    width: fit-content;
+    column-gap: 5px;
+    row-gap: 5px;
+    grid-template-columns: 50% 50%;
+}
+.fs-pic-grid img {
+    vertical-align: bottom;
+}
+.pic1 {
+    grid-column: 1/2;
+}
+.pic2 {
+    grid-column: 2/3;
+}
+.pic3 {
+    grid-column: 1/2;
+}
+.pic4 {
+    grid-column: 2/3;
+}
+.pic5 {
+    grid-column: 1/2;
+}
+.pic6 {
+    grid-column: 2/3;
+}
+.img-container{
+    position: relative;
+}
+
+.item-a {
+    vertical-align: baseline;
+}
+
+.img-container img {
+    display: block;
+}
+
+.img-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: NeueMachinaLight;
+    src: url(../homepage_assets/NeueMachina/neuemachina-light-webfont.woff2)
+}
+@font-face {
+    font-family: NeueMachinaRegular;
+    src: url(../homepage_assets/NeueMachina/neuemachina-regular-webfont.woff2)
+}
+@font-face {
+    font-family: NeueMachinaUltraLight;
+    src: url(../homepage_assets/NeueMachina/neuemachina-ultralight-webfont.woff2)
+}
